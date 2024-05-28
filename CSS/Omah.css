@@ -1,0 +1,482 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1166px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ===================navbar css start===================== */
+nav {
+    margin-top: 50px;
+    position: absolute;
+    width: 100%;
+}
+
+nav .nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li::before {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: #F6762E;
+    position: absolute;
+    border-radius: 5px;
+    top: 28px;
+    left: 50%;
+    transition: 0.4s;
+    transform: translateX(-50%);
+}
+
+nav ul li:hover::before {
+    width: 60%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 100px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #203239;
+    transition: 0.4s;
+    position: relative;
+}
+
+nav ul li:hover {
+    font-weight: 600;
+}
+
+/* ===================navbar css end===================== */
+/* ===================banner css start===================== */
+#banner {
+    background-color: #EEEDDE;
+}
+
+#banner .banner_wrapper {
+    display: flex;
+}
+
+#banner .banner_left {
+    width: 65%;
+}
+
+#banner .banner_right {
+    width: 35%;
+    text-align: right;
+    padding-top: 188px;
+    padding-bottom: 120px;
+}
+
+.banner_left h1 {
+    font-size: 56px;
+    font-weight: 600;
+    color: #203239;
+    width: 777px;
+    line-height: 150%;
+    padding-top: 257px;
+}
+
+.banner_left p {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(33, 50, 56, 55%);
+    width: 544px;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 55px
+}
+
+.banner_left input {
+    width: 508px;
+    height: 70px;
+    border-radius: 15px;
+    border: none;
+    background: #FFFFFF;
+    padding-left: 56px;
+}
+
+.banner_left input::placeholder {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(31, 49, 55, 55%);
+}
+
+.bannerlocation {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    font-size: 24px;
+}
+
+.banner_input_box {
+    position: relative;
+}
+
+.banner_left a {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(31, 49, 55, 55%);
+    padding: 21px 41px;
+    background: #FFFFFF;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.banner_input_wrapper {
+    display: flex;
+    gap: 15px;
+}
+
+/* ===================banner css end===================== */
+/* ===================propeti css start===================== */
+#properti {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#properti .item {
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: 20px 33px;
+    border-radius: 10px;
+}
+
+#properti .item:hover {
+    border: 1px solid #EEEDDE;
+}
+
+#properti .item_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#properti h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+    line-height: 150%;
+    width: 533px;
+}
+
+#properti .item h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #203239;
+    position: relative;
+}
+
+#properti .item h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF7527;
+    margin-right: -8px;
+}
+
+#properti .item h4::after {
+    content: "";
+    width: 8px;
+    height: 30px;
+    background: #FF7527;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -33px;
+    border-radius: 10px;
+}
+
+#properti .item p {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(31, 49, 55, 55%);
+    line-height: 30px;
+    width: 235px;
+    margin-top: 8px;
+}
+
+#properti .item a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #203239;
+    margin-top: 50px;
+    display: inline-block;
+    text-decoration: none;
+}
+#properti .item .item_bottom a{
+    margin-top: 82px;
+}
+
+#proerti .item .itemarrow {
+    margin-left: 8px;
+}
+
+.item_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 62px;
+}
+
+/* ===================properti css end===================== */
+/* ===================residen css start===================== */
+#residen {
+    margin-top: 100px;
+    padding-top: 68px;
+    padding-bottom: 164px;
+    background: #EEEDDE;
+}
+
+#residen .residen_titel h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF7527;
+}
+
+#residen .residen_titel h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+    line-height: 150%;
+    margin-top: 8px;
+}
+
+.residen_wrapper {
+    display: flex;
+}
+
+.residen_left {
+    width: 50%;
+    position: relative;
+    margin-top: 24px;
+
+}
+
+.residen_right {
+    width: 50%;
+}
+
+.residentwo {
+    position: absolute;
+    top: 70px;
+    left: 165px;
+}
+
+.residen_right h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #203239;
+    width: 507px;
+    margin-top: 50px;
+}
+
+.residen_right p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #203239;
+    width: 507px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.residen_btns a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #203239;
+    text-decoration: none;
+    padding: 13px 41px;
+    border: 1px solid #203239;
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 48px;
+
+}
+
+.residen_btns {
+    display: flex;
+}
+
+.residen_icon:hover {
+    background: #203239;
+    color: #FFFFFF;
+}
+
+.residen_btns a:last-child {
+    margin-right: 12px;
+}
+
+.residen_icon {
+    margin-right: 12px;
+}
+
+/* ===================residen css end===================== */
+/* ===================pilihan css start===================== */
+#pilihan{
+    margin-top: 68px;
+}
+#pilihan .pilihan_titel h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF7527;
+}
+#pilihan .pilihan_titel h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+    line-height: 150%;
+    margin-top: 8px;
+}
+.pilihan_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-bottom: 68px;
+}
+.pilihan_wrapper .pilihan_left h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: #203239;
+    line-height: 150%;
+}
+.pilihan_wrapper .pilihan_left p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #203239;
+    line-height: 30px;
+    width: 356px;
+}
+.pilihan_wrapper .pilihan_middle h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: #203239;
+    line-height: 150%;
+}
+.pilihan_wrapper .pilihan_middle p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #203239;
+    line-height: 30px;
+    width: 356px;
+}
+.pilihan_wrapper .pilihan_right h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: #203239;
+    line-height: 150%;
+}
+.pilihan_wrapper .pilihan_right p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #203239;
+    line-height: 30px;
+    width: 356px;
+}
+
+/* ===================pilihan css end===================== */
+/* ===================footer css start===================== */
+#footer{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #EEEDDE
+}
+.footer_wrapper .footer_left h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+    line-height: 150%;
+    margin-bottom: 74px;
+}
+.footer_left .box p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #203239;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.footer_left .box h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: #203239;
+    margin-left: 98px;
+    margin-top: 8px;
+}
+.footer_left .box button{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #203239;
+    width: 108px;
+    height: 44px;
+    border-radius: 5px;
+    margin-top: 27px;
+} 
+.footer_left .call_box .box{
+    width: 274px;
+    height: 167px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+.footer_left .call_box{
+    display: flex;
+    gap: 24px;
+}
+.footer_left .box i{
+    font-size: 34px;
+    position: absolute;
+    top: 29px;
+    left: 60px;
+}
+#footer .footer_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_wrapper .footer_right h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+    line-height: 150%;
+    margin-bottom: 69px;
+
+}
+.footer_wrapper .footer_right{
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+/* ===================footer css end===================== */
+/* ===================bottom css start===================== */
+
+#bottom .icon{
+    display: flex;
+    gap: 64px;
+}
+#bottom .icon i{
+    font-size: 24px;
+    color: #FFFFFF;
+
+}
+#bottom .bottom_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#bottom{
+    background-color: #203239;
+    margin-bottom: 30px;
+    height: 104;
+}
+/* ===================bottom css end===================== */
